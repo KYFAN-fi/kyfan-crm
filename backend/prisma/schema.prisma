@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Customer {
+  id               Int      @id @default(autoincrement())
+  customerName     String?
+  socialContact    String?
+  phone            String?
+  province         String?
+  serviceType      String
+  demandNote       String?
+  processingStatus String   @default("Chưa gọi")
+  note             String?
+  source           String?  @default("Excel 2026")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@map("customers")
+}
