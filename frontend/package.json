@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://TEN_GITHUB_CUA_BAN.github.io/financial-crm",
+  "homepage": "https://KYFAN-fi.github.io/kyfan-crm",
   "type": "module",
   "scripts": {
     "dev": "vite",

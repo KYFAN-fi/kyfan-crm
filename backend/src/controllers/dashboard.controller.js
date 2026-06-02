@@ -160,4 +160,4 @@ module.exports = {
   getByStatus,
   getByService,
   getByProvince,
-};
+}; 

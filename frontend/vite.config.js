@@ -14,15 +14,16 @@ export default defineConfig({
         theme_color: "#0f766e",
         background_color: "#f5fbfa",
         display: "standalone",
-        start_url: "/financial-crm/",
+        start_url: "/kyfan-crm/",
+        scope: "/kyfan-crm/",
         icons: [
           {
-            src: "/financial-crm/icon-192.png",
+            src: "/kyfan-crm/icon-192.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/financial-crm/icon-512.png",
+            src: "/kyfan-crm/icon-512.png",
             sizes: "512x512",
             type: "image/png"
           }
@@ -30,5 +31,5 @@ export default defineConfig({
       }
     })
   ],
-  base: "/financial-crm/",
+  base: "/kyfan-crm/",
 });
